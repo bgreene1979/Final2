@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');	
+body {
+    //background-image: url("images/butterflys3.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	font-family: 'Droid Serif', serif; font-size: 16px; font-weight: 300;  color: #555; margin: 0; padding: 0;
+}
+
+#id {max-width: 1200px; margin: 0 auto; position: relative;}
+	
+	a.btn{font-size: 1.2em; text-decoration: none; color: blue; border: 1px solid black; padding: 4px 15px; transition: background-color .5s;}
+	
+	a.btn:hover {background-color: rgba(0,0,0,0.3);}
+	
+header{ height: 150px; background: #010B48  url(images/banner.jpg) no-repeat center bottom; position: relative; )}
+	
+	header a.logo{z-index:2; position:relative; display: block; width:320px; height:66px; font-size: 2em; margin: 0 100px 0 50px; }
+	
+	header div.hero{position: absolute; width:42%; top: 103px; left: 55%; }
+	header.div.hero h1{ line-height:1em; margin: 0 0 30px 0; color: #fff}
+	
+	/*section all*/
+	
+	section{padding: 0 30px;}
+	
+	/*section main*/
+	section{margin-top:	20px; margin-bottom: 30px; padding: 0; }
+	
+	section.main aside{width: 50%; float: left; text-align: center;
+	}
+	
+	h1{ margin: 0 0 1em 0; font-size: : 2.8em; font-weight: 700;}
+	h2{ margin: 0 0 .5em 0; font-size: : 1.6em; font-weight: 700; line-height: 1.1em;}
+	h3{ margin: 0 0 .5em 0; font-size: : 1.3em; font-weight: 700;}
+	h4{ margin: 0 0 1.5em 0; font-size: : 1em; font-weight: 700;}
+	
+	p{margin: 0 0 1em 0;}
+	
+	a{color: #007EFF;}
+	a:visited{color: #65b1ff;}
+	
+	/*navigation*/
+	
+	nav { background-color: rgba(0,0,0,0.0);
+		position:absolute;
+		top: 0px; left:0px;
+		padding: 50px 0 0 0 ;
+		width: 100%;
+		list-style: none;
+	}
+	
+	nav:after{content:''; display: block; clear: both; list-style: none;}
+	
+	nav ul{list-style: none:
+	margin:0; padding:0;}
+	
+	nav ul li:hover {background-color: rgba(1,23,62,1.00);}
+	
+	nav ul li a { display: inline-block; color:white; padding: 10px 20px; text-decoration: none; width:50px; position: relative;}
+	
+	
+	nav ul lia a:visited{color: white;}
+
+	nav ul lia a:hover{background-color: rgba(1,23,62,1.00); }
+
+	/*top level*/
+	
+	nav > ul { padding-left: 200px;}
+	
+	nav > ul > li {float: left;}
+	
+	input[type=submit] {
+    background-color: #011E8E;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+	input[type=submit]:hover {
+    background-color: #0A08EB;
+}
+
+
+</style>
+<meta charset="utf-8">
+<title>Contact Page</title>
+</head>
+
+<body background="images/butterflys4.jpg">
+<div class="page">
+<header>
+	<a class="logo" title="Millicent Dagworth" href="index.html">Millicent Dagworth</a>
+
+	<div class="hero">
+		<h1>This is the side information</h1>
+	</div>
+	</header>
+<section >
+<div>
+	<h1>Contact us</h1>
+	</div>
+	
+	</section>
+	
+<section class="main">
+	<aside>
+		<div class="content">
+			 <div class="container">
+  <form action="mailto:bgreene734@gmail.com" method="get" enctype="text/plain">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br><br>
+
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Your email address.."><br><br>
+    
+    <label for="body">Comment</label><br>
+    <textarea id="body" name="body" placeholder="Place your message here..." style="height:200px"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div> 
+		
+		</div>	
+	</aside>
+	
+	
+	</section>
+	
+<nav>
+	<ul style="list-style-type: none">
+		<li><a title="Home" href="index.html">Home</a></li>
+	<li><a  title="About" href="about.html">About</a></li>
+	<li><a  title="Books" href="books.html">Books</a></li>
+	<li><a  title="Contact" href="contact.html">Contact</a></li>
+	</ul>
+	</nav>	
+</div>
+	
+<!--<table>
+<tr>
+
+	</tr>
+	<tr height="75px">
+	<td>
+	<a href="#" class="myButton" data-transition="slide">Home</a>
+		</td>
+	<td>
+	<a href="#" class="myButton" data-transition="slide">About</a>
+		</td>
+	<td>
+	<a href="#" class="myButton" data-transition="slide">Books</a>
+		</td>
+	<td>
+	<a href="#" class="myButton" data-transition="slide">News</a>
+		</td>
+	<td>
+	<a href="#" class="myButton" data-transition="slide">Contact</a>
+		</td>
+		</tr>
+	<tr>
+	</tr>
+	</table>-->
+</body>
+</html>
